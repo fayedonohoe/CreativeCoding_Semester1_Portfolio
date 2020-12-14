@@ -17,7 +17,7 @@ let points = [];
 let intersections = [];
 
 function setup(){
-  createCanvas(2480,1754);
+  createCanvas(1240,877);
   colorMode(HSB, canW, canH); // change colour mode and defined the range as the canW and canH
   rectMode(CENTER);
   // noLoop();
@@ -29,8 +29,8 @@ function draw(){
   let x = canW/2;
   let y = 0;
 
-  numberOfLines = map(mouseX, 0,2480, 3,20);
-  scaleVal = map(mouseY, 0,1754, 0.2,3);
+  numberOfLines = map(mouseX, 0,1240, 3,20);
+  scaleVal = map(mouseY, 0,877, 0.2,3);
 
   background(0);
 

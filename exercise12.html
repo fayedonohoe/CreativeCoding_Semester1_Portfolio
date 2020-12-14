@@ -69,10 +69,10 @@
   <section class="jumbotron text-center">
     <div class="container">
       <hr>
-        <h1>Mini Project 2 - Pattern </h1>
+        <h1>Assignment - Wrapping Paper</h1>
         <p class="lead text-muted">
-          Creating a Pattern Based on References <br>
-          November 2020
+          Creating a Pattern using P5.js that would be used to wrap a chocolate bar<br>
+          December 2020
         </p>
         <a href="index.html"><button type="button" class="btn btn-sm btn-outline-secondary">Back</button></a>
       <hr>
@@ -85,7 +85,7 @@
     <div class="row">
       <div class="col-md-12">
           <div>
-            <iframe src="js/exercise11/index.html" frameborder="0" scrolling="no" style="height: 500px;" height="100%" width="100%"></iframe>
+            <iframe src="js/exercise12/index.html" frameborder="0" scrolling="no" style="height: 877px; width: 1240px" height="100%" width="100%"></iframe>
           </div>
       </div>
     </div>
@@ -95,21 +95,22 @@
         <div class="card mb-6 shadow-sm">
           <div class="card-body">
             <p class="card-text">
-                  <h5> Interactive Colour Tool </h5>
-                  We were instructed to use what we have learned so far to create "something that allows a user to play with colour". <br>
-                  I created a colour spotlight.<br><br>
-
-                  This sketch creates a colour grid using the HSB as variables in a loop. <br>
-                  From this, a triangle fan is generated depending on the users mouse position, using similar calculations to create the spotlight shape. <br><br>
-
-                  I used rotation and map to give the effect of the spotlight rotating and moving around the canvas area.
-                  <br>
-                  <br>
-                  The current vertex data is stored as a vector in a shape array. When the user clicks their mouse,
-                  the current vertices are pushed, as a single shape array, to a larger array called 'shapes[]' . <br>
-                  In the draw() function, the shapes[] array is iterated through, drawing each of the stored spotlight
-                  shapes with randomly generated center points to create a strobe effect.
+                  <h4> Parabolic Hyperbola Turned Wrapping Paper </h4>
+                  Our assignment was to create a pattern, using P5.js, that would be printed and used to wrap a bar of chocolate. <br>
+                  During the research phase of this project, several design concepts were considered. I came across the use of parabolas,
+                  or "saddle roofing" in architecture. This involves the use of flat or straight lines, laid out in a way that creates the illusion of a curve. <br>
+                  I'm no stranger to this concept. Any of my secondary school teachers could attest to my work being covered in parabolic scribbles,
+                  so it seemed fitting I should try recreating this with code.
                   <br><br>
+
+                  <h5> The Design </h5>
+                  What makes this concept to fascinating, is how deceptively simple it is. It's just lines. Straight lines, and 150 lines of code.<br>
+                  After attempting and failing to apply coordinate geometry to the project, I decided to keep it simple, and keep it running.<br>
+                  The first step was to create a single design. This was achieved by creating a loop for each quadrant to draw the lines. <br>
+                  Next, was to add user interactivity for manipulation.<br>
+
+                  The number of lines per quadrant is determined by mapping the users mouseX position, and the scaling by mapping mouseY.<br><br>
+
           </p>
           </div>
         </div>
@@ -118,20 +119,21 @@
         <div class="card mb-6 shadow-sm">
           <div class="card-body">
             <p class="card-text">
-                  <h5> Interactive Colour Tool </h5>
-                  We were instructed to use what we have learned so far to create "something that allows a user to play with colour". <br>
-                  I created a colour spotlight.<br><br>
+                  <h5> The Pattern </h5>
+                  To create the pattern, a simple loop was iterated through. Due to the nature of this design, this could be used to
+                  bring each structure together perfectly. Scaling was applied to achieve different versions of the same pattern.<br><br>
 
-                  This sketch creates a colour grid using the HSB as variables in a loop. <br>
-                  From this, a triangle fan is generated depending on the users mouse position, using similar calculations to create the spotlight shape. <br><br>
+                  When the scaling is small and the number of lines per quadrant is high, it appears as though the background is gold and green,
+                  with black circles drawn over it. <br>
+                  When the scaling is larger, the lines of the quadrants intersect each other to display a completely different visual.
+                  <br><br>
 
-                  I used rotation and map to give the effect of the spotlight rotating and moving around the canvas area.
-                  <br>
-                  <br>
-                  The current vertex data is stored as a vector in a shape array. When the user clicks their mouse,
-                  the current vertices are pushed, as a single shape array, to a larger array called 'shapes[]' . <br>
-                  In the draw() function, the shapes[] array is iterated through, drawing each of the stored spotlight
-                  shapes with randomly generated center points to create a strobe effect.
+                  <h5> The Aestetic </h5>
+                  As shown in the Invision Board linked below, different colour combinations were trialed until the green and gold was settled on. <br>
+                  The stroke weight of the lines were also altered. This, combined with the overlapping structures, give more depth to the canvas.
+                  <br><br>
+
+                  <br><br>
                   <br><br>
           </p>
           </div>
@@ -145,9 +147,18 @@
 
     <hr>
 
+    <h3>
+      To see the references used for this project, please see
+      <a href="https://pin.it/6sFpybC">https://pin.it/6sFpybC</a>
+      <br><br>
+      To see a full breakdown of the developmebt process, please head to
+      <a href="https://projects.invisionapp.com/boards/R3415PG2HDJ/">https://projects.invisionapp.com/boards/R3415PG2HDJ/</a>
+    </h3>
+
+    <br>
 
     <!-- References -->
-    <h3>References</h3>
+    <!-- <h3>References</h3>
     <hr>
     <div class="row">
 
@@ -182,30 +193,31 @@
               <text x="50%" y="50%" fill="#eceeef" dy=".3em">Idea 4 - Mermaid Scales</text></div>
         </div>
       </div>
-    </div>
+    </div> -->
     <!-- END Reference Imgs -->
 
     <hr>
-    <h3>Output Images</h3>
+    <h3>The Physical Manifestation of the Creative Process</h3>
     <hr>
+    <br>
     <!-- Output Images -->
     <div class="row">
-      <div class="col-md-3">
-        <div class="card mb-3 shadow-sm">
+      <div class="col-md-6">
+        <div class="card mb-6 shadow-sm">
           <div class="" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title>
-              <img src="js/exercise11/Output_Images/Ex11_Img1.png" width="100%" height="100%">
-              <text x="50%" y="50%" fill="#eceeef" dy=".3em">Iteration 1 - Repeated Pattern</text></div>
+              <img src="js/exercise12/Final_Designs/Bar1.jpg" width="100%" height="100%">
+            </div>
         </div>
       </div>
 
-      <div class="col-md-3">
-        <div class="card mb-3 shadow-sm">
+      <div class="col-md-6">
+        <div class="card mb-6 shadow-sm">
           <div class="" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title>
-              <img src="js/exercise11/Output_Images/Ex11_Img2.png" width="100%" height="100%">
-              <text x="50%" y="50%" fill="#eceeef" dy=".3em">Iteration 2 - Thicker Strokes</text></div>
+              <img src="js/exercise12/Final_Designs/Bar2.jpg" width="100%" height="100%">
+            </div>
         </div>
       </div>
-
+<!--
       <div class="col-md-3">
         <div class="card mb-3 shadow-sm">
           <div class="" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title>
@@ -221,43 +233,7 @@
               <text x="50%" y="50%" fill="#eceeef" dy=".3em">Iteration 4 - Hitting a Brick Wall</text></div>
         </div>
       </div>
-    </div>
-
-    <!--  -->
-
-    <div class="row">
-      <div class="col-md-3">
-        <div class="card mb-3 shadow-sm">
-          <div class="" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title>
-              <img src="js/exercise11/Output_Images/Ex11_Img5.png" width="100%" height="100%">
-              <text x="50%" y="50%" fill="#eceeef" dy=".3em">Iteration 5 - Incorporating a different reference to mimick scales</text></div>
-        </div>
-      </div>
-
-      <div class="col-md-3">
-        <div class="card mb-3 shadow-sm">
-          <div class="" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title>
-              <img src="js/exercise11/Output_Images/Ex11_Img6.png" width="100%" height="100%">
-              <text x="50%" y="50%" fill="#eceeef" dy=".3em">Iteration 6 - Second Reference, Set up for scales</text></div>
-        </div>
-      </div>
-
-      <div class="col-md-3">
-        <div class="card mb-3 shadow-sm">
-          <div class="" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title>
-              <img src="js/exercise11/Output_Images/Ex11_Img7.png" width="100%" height="100%">
-              <text x="50%" y="50%" fill="#eceeef" dy=".3em"></text>Iteration 7 - Correct Rotation </div>
-        </div>
-      </div>
-
-      <div class="col-md-3">
-        <div class="card mb-3 shadow-sm">
-          <div class="" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title>
-              <img src="js/exercise11/Output_Images/Ex11_Img8.png" width="100%" height="100%">
-              <text x="50%" y="50%" fill="#eceeef" dy=".3em">Final Mermaid Scale Pattern - Layered from the bottom up, rounded corners</text></div>
-        </div>
-      </div>
-    </div>
+    </div> -->
     <!-- END Output Imgs -->
 
   </div>
