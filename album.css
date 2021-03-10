@@ -23,6 +23,10 @@
   max-width: 40rem;
 }
 
+.container{
+  /* background: lightGrey; */
+}
+
 footer {
   margin-top: 3rem;
   padding-top: 3rem;
@@ -32,4 +36,11 @@ footer {
 footer p {
 
   margin-bottom: .25rem;
+}
+
+.card-body{
+  text-align: center;
+}
+.index-button{
+  float: right;
 }

@@ -19,7 +19,7 @@ radius = 150;
   beginShape(TRIANGLE_FAN);
 
   push();
-  translate(250,-10);
+  translate(150,-180);
   rotate(45);
 
     vertex(250,250);
