@@ -71,7 +71,9 @@
 
                   <br><br>
 
-                  <h5> Using Two Objects: Brush and Eraser </h5>
+                  <h5> Breaking Down Text </h5>
+                  A library called opentype was used to load the chosen font, and the library g was then used to generate a path.<br>
+                  This allowed me to extract the commands from the string applied, and use the x and y values as position vectors for objects.
 
 
           </p>
@@ -82,18 +84,13 @@
         <div class=" mb-6 shadow-sm">
           <div class="card-body">
             <p class="card-text">
-                  <h5> The Pattern </h5>
-                  To create the pattern, a simple loop was iterated through. Due to the nature of this design, this could be used to
-                  bring each structure together perfectly. Scaling was applied to achieve different versions of the same pattern.<br><br>
-
-                  When the scaling is small and the number of lines per quadrant is high, it appears as though the background is gold and green,
-                  with black circles drawn over it. <br>
-                  When the scaling is larger, the lines of the quadrants intersect each other to display a completely different visual.
+                  <h5> Using Two Objects: Brush and Eraser </h5>
+                  Initially, two separate objects were used as a brush and an eraser. They were passed the Path location points on update so as they re-rendered, it appeared to be writing across the screen. While this successfully created the initial goal, I knew there was so much more I could do with it.
                   <br><br>
 
-                  <h5> The Aestetic </h5>
-                  As shown in the Invision Board linked below, different colour combinations were trialed until the green and gold was settled on. <br>
-                  The stroke weight of the lines were also altered. This, combined with the overlapping structures, give more depth to the canvas.
+                  <h5> Using Multiple Objects: One Per Path Point </h5>
+                  I recreated the first set of sketches, but created a new object for each path point. While this is CPU intensive, it allows for much greater flexibility and creative maneuvers. <br>
+                  Having access to individual points allowed me to apply various forces such as geavity and visual changes. 
                   <br><br>
 
                   <br><br>
